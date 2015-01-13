@@ -1,0 +1,24 @@
+[package]
+
+name = "simplectic-noise"
+description = "Reference implementation of simplectic noise"
+homepage = "https://github.com/cifram/simplectic-noise"
+repository = "https://github.com/cifram/simplectic-noise"
+version = "0.0.1"
+license = "Apache-2.0"
+keywords = ["math", "random"]
+authors = ["Michael Powell <herufeanor@gmail.com",
+           "Brendan Zabarauskas <bjzaba@yahoo.com.au>",
+           "Travis Watkins <amaranth@ubuntu.com>"]
+
+[lib]
+
+name = "simplectic_noise"
+
+[[example]]
+
+name = "simplectic"
+
+[dev-dependencies.image]
+
+git = "https://github.com/PistonDevelopers/image.git"
